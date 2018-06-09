@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def index
-    @users = "hello martin"
+    @users = "Hellow DMZ TGC"
   end
 
   def new
@@ -10,7 +10,7 @@ class UsersController < ApplicationController
   def create
     #code
   end
-  
+
   def show
     #code
   end
