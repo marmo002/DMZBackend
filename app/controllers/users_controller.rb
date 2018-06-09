@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
   def index
-    @users = "Hellow DMZ TGC"
   end
 
   def new
