@@ -1,7 +1,7 @@
 class CreateIssues < ActiveRecord::Migration[5.1]
   def change
     create_table :issues do |t|
-      t.string :description, null: false
+      t.text :description, null: false
       t.string :image
       t.integer :votes, default: 0
       t.string :status, default: "pending", null: false
